@@ -1,8 +1,10 @@
-function verificarTriangulo(a, b, c) {
-    if (a < b + c && b < a + c && c < a + b) {
-        console.log("Os comprimentos formam um Triângulo Válido.");
+verificarTriangulo(3function calcularImposto(salario) {
+    let desconto;
+    if (salario > 3000) {
+        desconto = salario * 0.15;
     } else {
-        console.log("Não é possível formar um Triângulo.");
+        desconto = salario * 0.05;
     }
+    console.log(`Salário: R$ ${salario.toFixed(2)} | Desconto: R$ ${desconto.toFixed(2)}`);
 }
-verificarTriangulo(3, 4, 5);
+calcularImposto(3500);, 4, 5);
