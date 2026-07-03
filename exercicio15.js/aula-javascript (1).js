@@ -6,4 +6,4 @@ function analisarEmprestimo(salarioBruto, parcelaMensal) {
         console.log("Parecer: Negado");
     }
 }
-analisarEmprestimo(3000, 800); // Exemplo de teste
+analisarEmprestimo(3000, 800); 
